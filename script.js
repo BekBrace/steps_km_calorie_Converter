@@ -25,7 +25,7 @@ function STEPS_CONV() {
   // Conversion from steps to Km
   let index = (steps * 0.0008045).toFixed(2);
   // Conversion from Km to Calories burned
-  let index1 = (index * 55)
+  let index1 = (index * 55).toFixed(2);
   // condition to check if steps field == 0 or not
   if (steps  != 0) {
     const km = document.getElementById("km");
